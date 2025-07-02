@@ -1,7 +1,9 @@
 Lancheria Online - Sistema de Solicitação de Pedidos
+
 Descrição
 
 Este projeto é um site simples para solicitação de pedidos em uma lancheria. O sistema permite que os usuários visualizem o cardápio, adicionem itens ao carrinho e finalizem seus pedidos de forma prática e rápida.
+
 Funcionalidades
 
     Visualização do cardápio com os produtos disponíveis e seus respectivos preços.
