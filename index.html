@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lancheria Bagual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Lancheria Bagual 🍔</h1>
+<div class="linha">
+    <table class="tabela">
+        <tr>
+            <th>Bauru</th>
+            <th>Preço</th>
+        </tr>
+
+        <tr>
+            <td>Bauru de Alcatra</td>
+            <td>R$ 38,00</td>
+        </tr>
+        <tr>
+            <td>Bauru de Coração</td>
+            <td>R$ 36,00</td>
+        </tr>
+        <tr>
+            <td>Bauru de Bacon</td>
+            <td>R$ 35,00</td>
+        </tr>
+        <tr>
+            <td>Bauru de Galinha</td>
+            <td>R$ 29,00</td>
+        </tr>
+        <tr>
+            <td>Bauru de Calabresa</td>
+            <td>R$ 29,00</td>
+        </tr>
+
+        <tr>
+            <td>Bauru Vegetariano</td>
+            <td>R$ 25,00</td>
+        </tr>
+        <tr>
+            <td>Refrigerante</td>
+            <td>R$ 10,00</td>
+        </tr>
+    </table> <br>
+    
+    <div class="container">
+        <label for="produto">Escolha o produto:</label>
+        <select name="produto" id="produto">
+            <option value="1">Bauru de Alcatra (R$ 38,00)</option>
+            <option value="2">Bauru de Coração (R$ 36,00)</option>
+            <option value="3">Bauru de Bacon (R$ 35,00)</option>
+            <option value="4">Bauru de Galinha (R$ 29,00)</option>
+            <option value="5">Bauru de Calabresa (R$ 29,00)</option>
+            <option value="6">Bauru Vegetariano (R$ 25,00)</option>
+            <option value="7">Refrigerante (R$ 10,00)</option>
+        </select> <br>
+        <label for="quantidade">Quantidade</label>
+        <input type="number" id="quantidade" min="1" value="1"><br>
+
+        <button id="btn1" onclick="adicionarPedido()">Adicionar ao pedido</button><br><br>
+        <button id="btn2" onclick="finalizarPedido()">Finalizar pedido</button> <br><br>
+        <div id="total">Total: R$ 0.00</div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
